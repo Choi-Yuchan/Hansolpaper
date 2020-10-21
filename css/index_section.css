@@ -175,6 +175,7 @@
 .together .content{
   position:relative;
   height:70vh;
+  overflow: visible;
 }
 .go_together,
 .go_together_txt{
