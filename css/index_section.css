@@ -267,7 +267,7 @@
     margin-top: 20px;
   }
   .sub_banner{
-    width: 100vw;
+    max-width: 100%;
   }
   .sub_banner_txt{
     display: block;
@@ -286,8 +286,7 @@
     top: 80%;
   }
   .go_together,.go_together_txt{
-    width: 100vw;
-    padding: 0 15px;
+    max-width: 100%;
   }
   .go_together>h3{
     font-size: 9em;
@@ -297,6 +296,7 @@
     text-align:center;        
   }
   .go_together_txt h3{
+    padding-left: 15px;
     font-size: 1.6em;
   }
   .go_together_txt p{
@@ -306,6 +306,7 @@
     display: none;
   }
   .go_together_txt .line{
-    width: 94%;
+    margin-left: 15px;
+    width: 95%;
   }
 }
