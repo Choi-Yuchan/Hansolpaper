@@ -271,6 +271,7 @@
   }
   .sub_banner_txt{
     display: block;
+    padding: 15px;
   }
   .sub_banner_txt h2{
     padding: 10px;
@@ -286,6 +287,7 @@
   }
   .go_together,.go_together_txt{
     width: 100vw;
+    padding: 0 15px;
   }
   .go_together>h3{
     font-size: 9em;
@@ -299,5 +301,11 @@
   }
   .go_together_txt p{
     font-size: 1.2em;
+  }
+  .go_together_txt .circle{
+    display: none;
+  }
+  .go_together_txt .line{
+    width: 94%;
   }
 }

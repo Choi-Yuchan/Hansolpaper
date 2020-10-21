@@ -55,7 +55,7 @@
 
     @media (max-width: 768px){
      footer{
-       padding: 10px;
+       padding: 20px;
      }
      .footer .content{
        display: block;
