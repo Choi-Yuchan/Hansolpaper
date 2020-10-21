@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style>
+    /* input{display: none;} */
+    img{
+      width: 30px;
+      padding-top:5px;
+    }
+    img#img01{
+      display: none;
+    }
+    img#img02{display: inline-block;}
+    input:checked~#img02{display: none;}
+    input:checked~#img01{display: inline-block;}
+    span{font-size:24px;}
+    button{
+      width: 100px;
+      height: 50px;
+      background-color:gold;
+      border: 1px solid orangered;
+      color: red;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+  <form>
+    <label>
+      <input type="checkbox">
+      <img src="./check01.png" id="img01" alt="01">
+      <img src="./check02.png" id="img02" alt="02">
+      <span>save ID</span>
+    </label>
+    <br>
+    <input type="color" name="color" value="#324578">
+    <br>
+    <input type="date" name="date" id="date">
+    <br>
+    <input type="file">
+    <br>
+    <input type="time">
+    <br>
+    <input type="image" src="./images/ico_insta.png" alt="">
+    <br>
+    <input type="email" name="" id="">
+    <input type="submit" value="submit">
+    <select name="" id="">
+      <option value="1"></option>
+      <option value="2"></option>
+      <option value="3"></option>
+      <option value="4"></option>
+    </select>
+    <textarea name="box" id="textbox" cols="40" rows="30">textarea</textarea>
+    <button>button</button>
+    <button disabled="disabled">disabled</button>
+    <button type="reset">reset</button>
+    <button type="submit">submit</button>
+
+  </form>
+
+
+  </div>
+
+</body>
+</html>
