@@ -67,7 +67,9 @@
 }
 .bx-wrapper .bx-next{background:none;}
 .bx-wrapper .bx-pager{bottom:30px;}
-
+.bx-wrapper .bx-default-pager{
+  display: none;
+}
 .banner_txt{
   padding: 50px;
 }
@@ -98,7 +100,36 @@
   right: 12px;
   top: 3px;
 }
+.pager_txt{
+  position: absolute;
+  bottom: 0;
+  left:10%;
+}
+.pager_txt ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 75vw;
+  
+}
+.pager_txt li{
+  padding-top: 20px;
+  padding-right: 10%;
+  border-top: #ffffff 2px solid;
+}
 
+.pager_txt a{
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-shadow: #666 1px 1px 2px;
+}
+.pager_txt li:first-child{
+  border-top: #333 3px solid;
+}
+.pager_txt li:first-child>a{
+  font-size: 1.5rem;
+  color: #333;
+  text-shadow: #666 1px 1px 2px;
+}
 
 /* sub banner CSS */
 .sub_banner_txt{
